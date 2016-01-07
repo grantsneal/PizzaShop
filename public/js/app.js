@@ -4,6 +4,8 @@
 
   var module = angular.module("pizzaApp", ["ngRoute"]);
 
+  var x = 0;
+
   module.config(function ($routeProvider) {
 
     $routeProvider.when('/', {
